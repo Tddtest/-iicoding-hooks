@@ -1,0 +1,29 @@
+{
+  "private": false,
+  "name": "@iicoding/hooks",
+  "version": "0.0.1",
+  "main": "./dist/index.esm.js",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Tddtest/iicoding-hooks.git"
+  },
+  "author": "codedmx - iiCoding",
+  "license": "MIT",
+  "peerDependencies": {
+    "react": "^16.12.0 || ^17.0.0 || ^18.1.0"
+  },
+  "description": "## not done Started",
+  "bugs": {
+    "url": "https://github.com/Tddtest/iicoding-hooks/issues"
+  },
+  "homepage": "https://github.com/Tddtest/iicoding-hooks#readme",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "hooks",
+    "React-hooks",
+    "iiCoding"
+  ]
+}
