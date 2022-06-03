@@ -1,0 +1,1 @@
+import{useRef as r,useMemo as n}from"react";function t(t){var u=r(t);u.current=n((function(){return t}),[t]);var e=r();return e.current||(e.current=function(){for(var r=arguments.length,n=Array(r),t=0;r>t;t++)n[t]=arguments[t];return u.current.apply(this,n)}),e.current}var u=function(){return t((function(){console.log("111")}))};export{t as useMemoizedHandle,u as useMount};
