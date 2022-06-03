@@ -1,8 +1,8 @@
 {
   "private": false,
   "name": "@iicoding/hooks",
-  "version": "0.0.1",
-  "main": "./dist/index.esm.js",
+  "version": "0.0.2",
+  "main": "index.esm.js",
   "repository": {
     "type": "git",
     "url": "git+ssh://git@github.com/Tddtest/iicoding-hooks.git"
