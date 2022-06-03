@@ -1,3 +1,4 @@
 import useMemoizedHandle from './hooks/useMemoizedHandle';
-import useMount from './hooks/useMount';
-export { useMount, useMemoizedHandle, };
+import useRequest from './hooks/useRequest';
+import useRequestAll from './hooks/useRequestAll';
+export { useRequest, useRequestAll, useMemoizedHandle };
