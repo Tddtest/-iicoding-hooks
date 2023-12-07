@@ -1,6 +1,6 @@
 {
   "name": "@iicoding/hooks",
-  "version": "0.0.13",
+  "version": "0.0.14",
   "main": "dist/index.mjs",
   "module": "dist/index.esm.js",
   "typings": "dist/index.d.ts",
@@ -29,5 +29,8 @@
   "publishConfig": {
     "access": "public",
     "registry": "https://registry.npmjs.org/"
+  },
+  "dependencies": {
+    "@iicoding/utils": "0.0.5"
   }
 }
