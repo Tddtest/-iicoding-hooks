@@ -1,6 +1,6 @@
 {
   "name": "@iicoding/hooks",
-  "version": "0.0.19",
+  "version": "0.0.20",
   "main": "dist/index.mjs",
   "module": "dist/index.esm.js",
   "typings": "dist/index.d.ts",
