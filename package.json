@@ -1,11 +1,10 @@
 {
   "name": "@iicoding/hooks",
-  "version": "0.0.20",
-  "main": "dist/index.mjs",
-  "module": "dist/index.esm.js",
-  "typings": "dist/index.d.ts",
+  "version": "0.0.22",
+  "main": "dist/esm/index.js",
+  "module": "dist/index.js",
+  "typings": "dist/esm/index.d.ts",
   "license": "MIT",
-  "type": "module",
   "gitHooks": {},
   "repository": {
     "type": "git",
@@ -15,14 +14,6 @@
     "url": "https://github.com/Tddtest/iicoding-hooks/issues"
   },
   "homepage": "https://github.com/Tddtest/iicoding-hooks#readme",
-  "lint-staged": {
-    "*.{js,jsx,less,md,json}": [
-      "prettier --write"
-    ],
-    "*.ts?(x)": [
-      "prettier --parser=typescript --write"
-    ]
-  },
   "peerDependencies": {
     "react": "^16.12.0 || ^17.0.0 || ^18.2.0"
   },
@@ -31,6 +22,12 @@
     "registry": "https://registry.npmjs.org/"
   },
   "dependencies": {
-    "@iicoding/utils": "^0.0.19"
+    "@iicoding/utils": "0.0.34"
+  },
+  "scripts": {
+    "push": "node script.js"
+  },
+  "devDependencies": {
+    "@iicoding/release": "latest"
   }
 }
